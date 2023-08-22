@@ -1,0 +1,413 @@
+0:100  0:100  MemLog inited, TSC freq: 2999998348
+0:100  0:000  CPU was calibrated with ACPI PM Timer
+0:100  0:000  CloverX64 : Image base = 0xC55F8000
+0:100  0:000  Clover ImageHandle = c5dca598
+0:105  0:005  SelfDirPath = \EFI\CLOVER
+0:108  0:003  === [ Starting Clover ] =========================
+0:108  0:000  Now is 09.08.2023,  00:47:43 (GMT)
+0:108  0:000  Starting Clover revision: 5154 (master, commit ee2b479b1) on Dell EFI
+0:108  0:000  Build id: 20230720202533-ee2b479-5154-dirty
+0:108  0:000  Build with: [Args: -D NO_GRUB_DRIVERS_EMBEDDED -D LESS_DEBUG -t GCC131 | --cmd-len=50000 -D NO_GRUB_DRIVERS_EMBEDDED -D LESS_DEBUG --conf=/Users/sergey/src/CloverBootloader/Conf -D USE_LOW_EBDA -a X64 -b RELEASE -t GCC131 -n 5 | OS: 13.4.1]
+0:108  0:000  === [ Get Smbios ] ==============================
+0:108  0:000  Type 16 Index = 0
+0:108  0:000  Total Memory Slots Count = 24
+0:108  0:000  Type 17 Index = 0
+0:108  0:000  SmbiosTable.Type17->SlotIndex = 0
+0:109  0:000  SmbiosTable.Type17->ModuleSize = 32768MB
+0:109  0:000  SmbiosTable.Type17->Type = 0
+0:109  0:000  SmbiosTable.Type17->Frequency = 1866MHz
+0:109  0:000  SmbiosTable.Type17->Bank/Device =  DIMM_A1 
+0:109  0:000  SmbiosTable.Type17->Vendor = 00CE063200CE
+0:109  0:000  SmbiosTable.Type17->SerialNo = 3953E064
+0:109  0:000  SmbiosTable.Type17->PartNo = M386B4G70DM0-CMA4
+0:109  0:000  Type 17 Index = 1
+0:109  0:000  Ignoring insane frequency value 0MHz
+0:109  0:000  Type 17 Index = 2
+0:109  0:000  Ignoring insane frequency value 0MHz
+0:109  0:000  Type 17 Index = 3
+0:109  0:000  Ignoring insane frequency value 0MHz
+0:109  0:000  Type 17 Index = 4
+0:109  0:000  Ignoring insane frequency value 0MHz
+0:109  0:000  Type 17 Index = 5
+0:109  0:000  Ignoring insane frequency value 0MHz
+0:109  0:000  Type 17 Index = 6
+0:109  0:000  Ignoring insane frequency value 0MHz
+0:109  0:000  Type 17 Index = 7
+0:109  0:000  Ignoring insane frequency value 0MHz
+0:109  0:000  Type 17 Index = 8
+0:109  0:000  Ignoring insane frequency value 0MHz
+0:109  0:000  Type 17 Index = 9
+0:109  0:000  Ignoring insane frequency value 0MHz
+0:109  0:000  Type 17 Index = 10
+0:109  0:000  Ignoring insane frequency value 0MHz
+0:109  0:000  Type 17 Index = 11
+0:109  0:000  Ignoring insane frequency value 0MHz
+0:109  0:000  Type 17 Index = 12
+0:109  0:000  SmbiosTable.Type17->SlotIndex = 12
+0:109  0:000  SmbiosTable.Type17->ModuleSize = 32768MB
+0:109  0:000  SmbiosTable.Type17->Type = 0
+0:109  0:000  SmbiosTable.Type17->Frequency = 1866MHz
+0:109  0:000  SmbiosTable.Type17->Bank/Device =  DIMM_B1 
+0:109  0:000  SmbiosTable.Type17->Vendor = 00CE063200CE
+0:109  0:000  SmbiosTable.Type17->SerialNo = 3953C8CD
+0:109  0:000  SmbiosTable.Type17->PartNo = M386B4G70DM0-CMA4
+0:109  0:000  Type 17 Index = 13
+0:109  0:000  Ignoring insane frequency value 0MHz
+0:109  0:000  Type 17 Index = 14
+0:109  0:000  Ignoring insane frequency value 0MHz
+0:109  0:000  Type 17 Index = 15
+0:109  0:000  Ignoring insane frequency value 0MHz
+0:109  0:000  Type 17 Index = 16
+0:109  0:000  Ignoring insane frequency value 0MHz
+0:109  0:000  Type 17 Index = 17
+0:109  0:000  Ignoring insane frequency value 0MHz
+0:109  0:000  Type 17 Index = 18
+0:109  0:000  Ignoring insane frequency value 0MHz
+0:109  0:000  Type 17 Index = 19
+0:109  0:000  Ignoring insane frequency value 0MHz
+0:109  0:000  Type 17 Index = 20
+0:109  0:000  Ignoring insane frequency value 0MHz
+0:109  0:000  Type 17 Index = 21
+0:109  0:000  Ignoring insane frequency value 0MHz
+0:109  0:000  Type 17 Index = 22
+0:109  0:000  Ignoring insane frequency value 0MHz
+0:109  0:000  Type 17 Index = 23
+0:109  0:000  Ignoring insane frequency value 0MHz
+0:109  0:000  Boot status=0
+0:109  0:000  Running on: 'Compellent SC8000' with board '0T0WRN'
+0:109  0:000  === [ GetCPUProperties ] ========================
+0:109  0:000  CPU Vendor = 756E6547 Model=306E4
+0:109  0:000   The CPU supported SSE4.1
+0:109  0:000   The CPU supported RDRAND
+0:109  0:000  BrandString = Intel(R) Xeon(R) CPU E5-2690 v2 @ 3.00GHz
+0:109  0:000   The CPU supported turbo
+0:109  0:000   Energy PerfBias is  not visible:
+0:109  0:000  MSR 0x35               A0014
+0:109  0:000  MSR 0xE2 before patch 00008403
+0:109  0:000  MSR 0xE2 is locked, PM patches will be turned on
+0:109  0:000  MSR 0xCE              00000C10_E4811E00
+0:109  0:000  FSBFrequency = 100 MHz, DMI FSBFrequency = 8000 MHz, Corrected FSBFrequency = 100 MHz
+0:109  0:000  MaxDiv/MinDiv: 30.0/12
+0:109  0:000  Turbo: 33/34/35/36
+0:109  0:000  Features: 0x77BEE3FFBFEBFBFF
+0:109  0:000  Threads: 20
+0:109  0:000  Cores: 10
+0:109  0:000  FSB: 100 MHz
+0:109  0:000  CPU: 3000 MHz
+0:109  0:000  TSC: 3000 MHz
+0:109  0:000  PIS: 400 MHz
+0:109  0:000  ExternalClock: 100 MHz
+0:109  0:000  === [ GetDevices ] ==============================
+0:109  0:000  Found more than one GOP protocol ??? Using the first one
+0:109  0:000  GOP found at: 
+0:109  0:000  PCI (00|00:00.00) : 8086 0E00 class=060000
+0:109  0:000  PCI (00|00:01.00) : 8086 0E02 class=060400
+0:109  0:000  PCI (00|01:00.00) : 8086 10FB class=020000
+0:109  0:000   - LAN: 1 Vendor=Intel
+0:109  0:000  Legacy MAC address of LAN #0= B8:CA:3A:64:E1:20:
+0:109  0:000  PCI (00|01:00.01) : 8086 10FB class=020000
+0:109  0:000   - LAN: 2 Vendor=Intel
+0:109  0:000  Legacy MAC address of LAN #1= AF:BE:AD:DE:AF:BE:
+0:109  0:000  PCI (00|00:02.00) : 8086 0E04 class=060400
+0:109  0:000  PCI (00|03:00.00) : 15B7 501A class=010802
+0:109  0:000  PCI (00|00:02.02) : 8086 0E06 class=060400
+0:109  0:000  PCI (00|00:03.00) : 8086 0E08 class=060400
+0:109  0:000  PCI (00|00:03.02) : 8086 0E0A class=060400
+0:109  0:000  PCI (00|00:04.00) : 8086 0E20 class=088000
+0:109  0:000  PCI (00|00:04.01) : 8086 0E21 class=088000
+0:109  0:000  PCI (00|00:04.02) : 8086 0E22 class=088000
+0:109  0:000  PCI (00|00:04.03) : 8086 0E23 class=088000
+0:109  0:000  PCI (00|00:04.04) : 8086 0E24 class=088000
+0:109  0:000  PCI (00|00:04.05) : 8086 0E25 class=088000
+0:109  0:000  PCI (00|00:04.06) : 8086 0E26 class=088000
+0:109  0:000  PCI (00|00:04.07) : 8086 0E27 class=088000
+0:109  0:000  PCI (00|00:05.00) : 8086 0E28 class=088000
+0:109  0:000  PCI (00|00:05.02) : 8086 0E2A class=088000
+0:109  0:000  PCI (00|00:11.00) : 8086 1D3E class=060400
+0:109  0:000  PCI (00|00:16.00) : 8086 1D3A class=078000
+0:109  0:000  PCI (00|00:16.01) : 8086 1D3B class=078000
+0:109  0:000  PCI (00|00:1A.00) : 8086 1D2D class=0C0320
+0:109  0:000  PCI (00|00:1C.00) : 8086 1D10 class=060400
+0:109  0:000  PCI (00|00:1C.04) : 8086 1D18 class=060400
+0:109  0:000  PCI (00|08:00.00) : 8086 1521 class=020000
+0:109  0:000   - LAN: 3 Vendor=Intel
+0:109  0:000  Legacy MAC address of LAN #2= 00:00:00:00:00:00:
+0:109  0:000  PCI (00|08:00.01) : 8086 1521 class=020000
+0:109  0:000   - LAN: 4 Vendor=Intel
+0:109  0:000  Legacy MAC address of LAN #3= 00:00:00:00:00:00:
+0:109  0:000  PCI (00|00:1C.07) : 8086 1D1E class=060400
+0:110  0:000  PCI (00|09:00.00) : 1912 0013 class=060400
+0:110  0:000  PCI (00|0A:00.00) : 1912 0013 class=060400
+0:111  0:000  PCI (00|0B:00.00) : 1912 0012 class=060400
+0:111  0:000  PCI (00|0C:00.00) : 102B 0534 class=030000
+0:112  0:000  PCI (00|0A:01.00) : 1912 0013 class=060400
+0:112  0:000  PCI (00|00:1D.00) : 8086 1D26 class=0C0320
+0:112  0:000  PCI (00|00:1E.00) : 8086 244E class=060401
+0:112  0:000  PCI (00|00:1F.00) : 8086 1D41 class=060100
+0:112  0:000  PCI (00|00:1F.02) : 8086 1D02 class=010601
+0:112  0:000  PCI (00|40:01.00) : 8086 0E02 class=060400
+0:112  0:000  PCI (00|40:02.00) : 8086 0E04 class=060400
+0:112  0:000  PCI (00|40:03.00) : 8086 0E08 class=060400
+0:112  0:000  PCI (00|40:03.02) : 8086 0E0A class=060400
+0:112  0:000  PCI (00|40:04.00) : 8086 0E20 class=088000
+0:112  0:000  PCI (00|40:04.01) : 8086 0E21 class=088000
+0:112  0:000  PCI (00|40:04.02) : 8086 0E22 class=088000
+0:112  0:000  PCI (00|40:04.03) : 8086 0E23 class=088000
+0:112  0:000  PCI (00|40:04.04) : 8086 0E24 class=088000
+0:112  0:000  PCI (00|40:04.05) : 8086 0E25 class=088000
+0:112  0:000  PCI (00|40:04.06) : 8086 0E26 class=088000
+0:112  0:000  PCI (00|40:04.07) : 8086 0E27 class=088000
+0:112  0:000  PCI (00|40:05.00) : 8086 0E28 class=088000
+0:112  0:000  PCI (00|40:05.02) : 8086 0E2A class=088000
+0:112  0:000  PCI (00|3F:08.00) : 8086 0E80 class=088000
+0:112  0:000  PCI (00|3F:09.00) : 8086 0E90 class=088000
+0:112  0:000  PCI (00|3F:0A.00) : 8086 0EC0 class=088000
+0:112  0:000  PCI (00|3F:0A.01) : 8086 0EC1 class=088000
+0:112  0:000  PCI (00|3F:0A.02) : 8086 0EC2 class=088000
+0:112  0:000  PCI (00|3F:0A.03) : 8086 0EC3 class=088000
+0:112  0:000  PCI (00|3F:0B.00) : 8086 0E1E class=088000
+0:112  0:000  PCI (00|3F:0B.03) : 8086 0E1F class=088000
+0:112  0:000  PCI (00|3F:0C.00) : 8086 0EE0 class=088000
+0:112  0:000  PCI (00|3F:0C.01) : 8086 0EE2 class=088000
+0:112  0:000  PCI (00|3F:0C.02) : 8086 0EE4 class=088000
+0:112  0:000  PCI (00|3F:0C.03) : 8086 0EE6 class=088000
+0:112  0:000  PCI (00|3F:0C.04) : 8086 0EE8 class=088000
+0:112  0:000  PCI (00|3F:0D.00) : 8086 0EE1 class=088000
+0:112  0:000  PCI (00|3F:0D.01) : 8086 0EE3 class=088000
+0:112  0:000  PCI (00|3F:0D.02) : 8086 0EE5 class=088000
+0:112  0:000  PCI (00|3F:0D.03) : 8086 0EE7 class=088000
+0:112  0:000  PCI (00|3F:0D.04) : 8086 0EE9 class=088000
+0:112  0:000  PCI (00|3F:0E.00) : 8086 0EA0 class=088000
+0:113  0:000  PCI (00|3F:0E.01) : 8086 0E30 class=110100
+0:113  0:000  PCI (00|3F:0F.00) : 8086 0EA8 class=088000
+0:113  0:000  PCI (00|3F:0F.01) : 8086 0E71 class=088000
+0:113  0:000  PCI (00|3F:0F.02) : 8086 0EAA class=088000
+0:113  0:000  PCI (00|3F:0F.03) : 8086 0EAB class=088000
+0:113  0:000  PCI (00|3F:0F.04) : 8086 0EAC class=088000
+0:113  0:000  PCI (00|3F:0F.05) : 8086 0EAD class=088000
+0:113  0:000  PCI (00|3F:10.00) : 8086 0EB0 class=088000
+0:113  0:000  PCI (00|3F:10.01) : 8086 0EB1 class=088000
+0:113  0:000  PCI (00|3F:10.02) : 8086 0EB2 class=088000
+0:113  0:000  PCI (00|3F:10.03) : 8086 0EB3 class=088000
+0:113  0:000  PCI (00|3F:10.04) : 8086 0EB4 class=088000
+0:113  0:000  PCI (00|3F:10.05) : 8086 0EB5 class=088000
+0:113  0:000  PCI (00|3F:10.07) : 8086 0EB7 class=088000
+0:113  0:000  PCI (00|3F:13.00) : 8086 0E1D class=088000
+0:113  0:000  PCI (00|3F:13.01) : 8086 0E34 class=110100
+0:113  0:000  PCI (00|3F:13.04) : 8086 0E81 class=088000
+0:113  0:000  PCI (00|3F:13.05) : 8086 0E36 class=110100
+0:113  0:000  PCI (00|3F:16.00) : 8086 0EC8 class=088000
+0:113  0:000  PCI (00|3F:16.01) : 8086 0EC9 class=088000
+0:113  0:000  PCI (00|3F:16.02) : 8086 0ECA class=088000
+0:113  0:000  PCI (00|7F:08.00) : 8086 0E80 class=088000
+0:113  0:000  PCI (00|7F:09.00) : 8086 0E90 class=088000
+0:113  0:000  PCI (00|7F:0A.00) : 8086 0EC0 class=088000
+0:113  0:000  PCI (00|7F:0A.01) : 8086 0EC1 class=088000
+0:113  0:000  PCI (00|7F:0A.02) : 8086 0EC2 class=088000
+0:113  0:000  PCI (00|7F:0A.03) : 8086 0EC3 class=088000
+0:113  0:000  PCI (00|7F:0B.00) : 8086 0E1E class=088000
+0:113  0:000  PCI (00|7F:0B.03) : 8086 0E1F class=088000
+0:113  0:000  PCI (00|7F:0C.00) : 8086 0EE0 class=088000
+0:113  0:000  PCI (00|7F:0C.01) : 8086 0EE2 class=088000
+0:113  0:000  PCI (00|7F:0C.02) : 8086 0EE4 class=088000
+0:113  0:000  PCI (00|7F:0C.03) : 8086 0EE6 class=088000
+0:113  0:000  PCI (00|7F:0C.04) : 8086 0EE8 class=088000
+0:113  0:000  PCI (00|7F:0D.00) : 8086 0EE1 class=088000
+0:113  0:000  PCI (00|7F:0D.01) : 8086 0EE3 class=088000
+0:113  0:000  PCI (00|7F:0D.02) : 8086 0EE5 class=088000
+0:113  0:000  PCI (00|7F:0D.03) : 8086 0EE7 class=088000
+0:113  0:000  PCI (00|7F:0D.04) : 8086 0EE9 class=088000
+0:113  0:000  PCI (00|7F:0E.00) : 8086 0EA0 class=088000
+0:113  0:000  PCI (00|7F:0E.01) : 8086 0E30 class=110100
+0:113  0:000  PCI (00|7F:0F.00) : 8086 0EA8 class=088000
+0:113  0:000  PCI (00|7F:0F.01) : 8086 0E71 class=088000
+0:113  0:000  PCI (00|7F:0F.02) : 8086 0EAA class=088000
+0:113  0:000  PCI (00|7F:0F.03) : 8086 0EAB class=088000
+0:113  0:000  PCI (00|7F:0F.04) : 8086 0EAC class=088000
+0:113  0:000  PCI (00|7F:0F.05) : 8086 0EAD class=088000
+0:113  0:000  PCI (00|7F:10.00) : 8086 0EB0 class=088000
+0:113  0:000  PCI (00|7F:10.01) : 8086 0EB1 class=088000
+0:113  0:000  PCI (00|7F:10.02) : 8086 0EB2 class=088000
+0:113  0:000  PCI (00|7F:10.03) : 8086 0EB3 class=088000
+0:113  0:000  PCI (00|7F:10.04) : 8086 0EB4 class=088000
+0:113  0:000  PCI (00|7F:10.05) : 8086 0EB5 class=088000
+0:113  0:000  PCI (00|7F:10.07) : 8086 0EB7 class=088000
+0:113  0:000  PCI (00|7F:13.00) : 8086 0E1D class=088000
+0:113  0:000  PCI (00|7F:13.01) : 8086 0E34 class=110100
+0:113  0:000  PCI (00|7F:13.04) : 8086 0E81 class=088000
+0:113  0:000  PCI (00|7F:13.05) : 8086 0E36 class=110100
+0:113  0:000  PCI (00|7F:16.00) : 8086 0EC8 class=088000
+0:113  0:000  PCI (00|7F:16.01) : 8086 0EC9 class=088000
+0:113  0:000  PCI (00|7F:16.02) : 8086 0ECA class=088000
+0:113  0:000  _checkOEMPath Look for oem dir at path '\EFI\CLOVER\OEM\Compellent SC8000--B8-CA-3A-64-E1-20'. Dir doesn't exist.
+0:113  0:000  _checkOEMPath Look for oem dir at path '\EFI\CLOVER\OEM\Compellent SC8000--AF-BE-AD-DE-AF-BE'. Dir doesn't exist.
+0:113  0:000  _checkOEMPath Look for oem dir at path '\EFI\CLOVER\OEM\Compellent SC8000--00-00-00-00-00-00'. Dir doesn't exist.
+0:113  0:000  _checkOEMPath Look for oem dir at path '\EFI\CLOVER\OEM\Compellent SC8000--00-00-00-00-00-00'. Dir doesn't exist.
+0:113  0:000  _checkOEMPath Look for oem dir at path '\EFI\CLOVER\OEM\0T0WRN\UEFI'. Dir doesn't exist.
+0:113  0:000  _checkOEMPath Look for oem dir at path '\EFI\CLOVER\OEM\Compellent SC8000'. Dir doesn't exist.
+0:113  0:000  _checkOEMPath Look for oem dir at path '\EFI\CLOVER\OEM\Compellent SC8000-3000'. Dir doesn't exist.
+0:113  0:000  _checkOEMPath Look for oem dir at path '\EFI\CLOVER\OEM\0T0WRN'. Dir doesn't exist.
+0:113  0:000  _checkOEMPath Look for oem dir at path '\EFI\CLOVER\OEM\0T0WRN-3000'. Dir doesn't exist.
+0:113  0:000  === [ GetUserSettings ] =========================
+0:113  0:000  GetDefaultModel()=MacBookAir5,2
+0:113  0:000  === [ LoadUserSettings ] ========================
+0:118  0:004  Using config.plist at path: \EFI\CLOVER
+0:120  0:001  There is a problem in plist '\EFI\CLOVER\config.plist'
+0:120  0:000  Warning: Unknown key '/SMBIOS_capitan:1369'. Skipped.
+0:120  0:000  Use CloverConfigPlistValidator or look in the log
+3:142  3:022  === [ LoadUserSettings ] ========================
+3:142  0:000  Cannot find smbios.plist at path '\EFI\CLOVER' : Not Found
+3:142  0:000  '\EFI\CLOVER\smbios.plist' not loaded. Efi error Not Found
+3:142  0:000  create SMBIOS list, found 26 dicts
+3:142  0:000  ... ACPI
+3:142  0:000  ... Boot
+3:142  0:000  ... BootGraphics
+3:142  0:000  ... CPU
+3:142  0:000  ... Devices
+3:142  0:000  ... GUI
+3:142  0:000  ... Graphics
+3:142  0:000  ... KernelAndKextPatches
+3:142  0:000  ... SMBIOS
+3:142  0:000  ... SMBIOS_ventura
+3:142  0:000  ... SystemParameters
+3:142  0:000  ... RtVariables
+3:142  0:000  ... Quirks
+3:143  0:000  get default model
+3:143  0:000  BiosVersion: MBA51.88Z.F000.B00.2106041717
+3:143  0:000  BiosReleaseDate: 06/04/2021
+3:143  0:000  EfiVersion: 422.0.0.0.0
+3:143  0:000  got BE smUUID as:44454C4C-3900-1054-8037-B3C04F505731
+3:143  0:000  Calibrated TSC Frequency = 2999998348 = 2999MHz
+3:147  0:003  === [ GetListOfThemes ] =========================
+3:151  0:004  === [ Found config plists ] =====================
+3:151  0:000  - config.plist
+3:151  0:000  === [ LoadDrivers ] =============================
+3:156  0:004  Loading ApfsDriverLoader.efi status=Success
+3:161  0:005   - driver needs connecting
+3:161  0:000  Loading AptioInputFix.efi status=Success
+3:165  0:003  Loading EnglishDxe.efi status=Success
+3:170  0:005  Loading Fat.efi status=Success
+3:171  0:000   - driver needs connecting
+3:171  0:000  Loading NvmExpressDxe.efi status=Success
+3:176  0:004   - driver needs connecting
+3:176  0:000  Loading VBoxHfs.efi status=Success
+3:181  0:005   - driver needs connecting
+3:181  0:000  4 drivers needs connecting ...
+3:181  0:000  PlatformDriverOverrideProtocol not found. Installing ... Success
+3:181  0:000  HFS+ driver loaded
+3:181  0:000  APFS driver loaded
+3:181  0:000  Searching for invalid DiskIo BY_DRIVER connects: not found, all ok
+4:025  0:844  === [ InitScreen ] ==============================
+4:025  0:000  Console modes reported: 3, available modes:
+4:025  0:000   - [01]: 80x25 (current mode)
+4:025  0:000   - [03]: 100x31
+4:025  0:000  SetMaxResolution: found best mode 7: 1920x1080
+4:047  0:022  Video mode change to mode #7: Success
+4:047  0:000   - set
+4:047  0:000  SetScreenResolution: 1920x1080 - already set
+4:049  0:001  Using embedded font
+4:073  0:023  === [ ScanSPD ] =================================
+4:077  0:004  === [ GetAcpiTablesList ] =======================
+4:081  0:003  Get Acpi Tables List from RSDT:
+4:081  0:000   - [00]: FACP  PE_SC3 len=116
+4:081  0:000   - [01]: APIC  PE_SC3 len=490
+4:081  0:000   - [02]: SPCR  PE_SC3 len=80
+4:081  0:000   - [03]: HPET  PE_SC3 len=56
+4:081  0:000   - [04]: DMAR  PE_SC3 len=408
+4:081  0:000   - [05]: MCFG  PE_SC3 len=60
+4:081  0:000   - [06]: WDAT  PE_SC3 len=308
+4:081  0:000   - [07]: SLIC  PE_SC3 len=36
+4:081  0:000   - [08]: ERST  PE_SC3 len=624
+4:081  0:000   - [09]: HEST  PE_SC3 len=1568
+4:081  0:000   - [10]: BERT  PE_SC3 len=48
+4:081  0:000   - [11]: EINJ  PE_SC3 len=400
+4:081  0:000   - [12]: TCPA  PE_SC3 len=100
+4:081  0:000   - [13]: PC__  PE_SC3 len=110
+4:081  0:000   - [14]: SSDT  PPM RCM  len=52052
+4:103  0:021   - [00]: Drop table : DMAR,                0 :  yes
+4:103  0:000   - [01]: Drop table : SSDT,       6d50757043 :  no
+4:103  0:000   - [02]: Drop table : SSDT,   74734930757043 :  no
+4:103  0:000   - [03]: Drop table : BGRT,                0 :  no
+4:103  0:000  Custom boot CUSTOM_BOOT_USER_DISABLED (0x0)
+4:103  0:000  Default theme: embedded
+4:103  0:000  Set FakeCPUID: 0x10676
+4:124  0:020  === [ Found DSDT tables ] =======================
+4:124  0:000  === [ InitKextList ] ============================
+4:139  0:014  === [ ScanVolumes ] =============================
+4:139  0:000  Found 7 volumes with blockIO
+4:139  0:000  - [00]: Volume: PcieRoot(0x0)\Pci(0x1A,0x0)\USB(0x0,0x0)\USB(0x1,0x0)
+4:142  0:002  - [01]: Volume: PcieRoot(0x0)\Pci(0x1A,0x0)\USB(0x0,0x0)\USB(0x1,0x0)\HD(1,MBR,0x00000000,0x800,0x733EBF4)
+4:144  0:002          Result of bootcode detection: bootable unknown (legacy)
+4:145  0:000            label : 2023_08_08
+4:145  0:000          This is SelfVolume !!
+4:145  0:000  - [02]: Volume: PcieRoot(0x0)\Pci(0x1A,0x0)\USB(0x0,0x0)\USB(0x2,0x0)
+4:146  0:001  - [03]: Volume: PcieRoot(0x0)\Pci(0x2,0x0)\Pci(0x0,0x0)\NVMe(0x1,48-A7-1A-4E-8B-44-1B-00)
+4:146  0:000          Result of bootcode detection: bootable Linux (grub,linux)
+4:146  0:000  - [04]: Volume: PcieRoot(0x0)\Pci(0x2,0x0)\Pci(0x0,0x0)\NVMe(0x1,48-A7-1A-4E-8B-44-1B-00)\HD(1,GPT,0A2DD867-F443-4651-AA3D-DE75ADDECE23,0x22,0x7DE)
+4:146  0:000          Result of bootcode detection: bootable unknown (legacy)
+4:147  0:000  - [05]: Volume: PcieRoot(0x0)\Pci(0x2,0x0)\Pci(0x0,0x0)\NVMe(0x1,48-A7-1A-4E-8B-44-1B-00)\HD(2,GPT,81BCBE1A-2940-4756-AA4C-5CDDDEB2ACB0,0x800,0x200000)
+4:147  0:000          Result of bootcode detection: bootable unknown (legacy)
+4:147  0:000            label : 꾯꾯꾯꾯꾯꾯꾯꾯꾯꾯꾯꾯꾯꾯꾯꾯꾯꾯꾯꾯꾯꾯꾯꾯꾯꾯꾯꾯꾯꾯꾯꾯꾯꾯桰つ
+4:147  0:000  - [06]: Volume: PcieRoot(0x0)\Pci(0x2,0x0)\Pci(0x0,0x0)\NVMe(0x1,48-A7-1A-4E-8B-44-1B-00)\HD(3,GPT,7CFA36A8-E74C-481B-998F-D523F40D9607,0x200800,0x3A18580F)
+4:148  0:000  No AudioIoProtocols, status=Not Found
+4:148  0:000  === [ InitXTheme ] ==============================
+4:148  0:000  use night theme
+4:148  0:000   using embedded theme
+4:195  0:046  sound play end with status=Device Error
+4:196  0:001  Using embedded font
+4:197  0:000  theme inited
+4:197  0:000  Chosen embedded theme
+4:197  0:000  after NVRAM boot-args=
+4:197  0:000  === [ Dump SMC keys from NVRAM ] ================
+4:197  0:000  found AppleSMC protocol
+4:197  0:000     fakesmc-key-$Adr-ui32:00 00 03 00 
+4:197  0:000     fakesmc-key-$Num-ui8:01 
+4:197  0:000     fakesmc-key-RMde-char:41 
+4:197  0:000     fakesmc-key-#KEY-ui32:00 00 00 04 
+4:198  0:000  Registered 4 SMC keys
+4:198  0:000  === [ ScanLoader ] ==============================
+4:198  0:000  - [01]: '2023_08_08'
+4:198  0:000        AddLoaderEntry for Volume Name=2023_08_08, idx=0
+4:198  0:000        OSVersion= 
+4:198  0:000        IconName=unknown comma=-1 size=7
+4:198  0:000        Full=unknown
+4:198  0:000        Loader entry created for 'PcieRoot(0x0)\Pci(0x1A,0x0)\USB(0x0,0x0)\USB(0x1,0x0)\HD(1,MBR,0x00000000,0x800,0x733EBF4)\EFI\BOOT\BOOTX64.efi'
+4:198  0:000        Menu entry added at index 0
+4:198  0:000       hiding entry because DiskKind is DISK_KIND_EXTERNAL: \EFI\BOOT\BOOTX64.efi
+4:198  0:000  - [05]: '꾯꾯꾯꾯꾯꾯꾯꾯꾯꾯꾯꾯꾯꾯꾯꾯꾯꾯꾯꾯꾯꾯꾯꾯꾯꾯꾯꾯꾯꾯꾯꾯꾯꾯桰つ'
+4:201  0:002    found entry proxmox,linux
+4:201  0:000        AddLoaderEntry for Volume Name=꾯꾯꾯꾯꾯꾯꾯꾯꾯꾯꾯꾯꾯꾯꾯꾯꾯꾯꾯꾯꾯꾯꾯꾯꾯꾯꾯꾯꾯꾯꾯꾯꾯꾯桰つ, idx=1
+4:201  0:000        OSVersion= 
+4:201  0:000        linux image not found
+4:201  0:000        IconName=linux comma=-1 size=5
+4:201  0:000        Full=linux
+4:201  0:000        IconName=unknown comma=-1 size=7
+4:201  0:000        Full=unknown
+4:201  0:000        Loader entry created for 'PcieRoot(0x0)\Pci(0x2,0x0)\Pci(0x0,0x0)\NVMe(0x1,48-A7-1A-4E-8B-44-1B-00)\HD(2,GPT,81BCBE1A-2940-4756-AA4C-5CDDDEB2ACB0,0x800,0x200000)\EFI\proxmox\grubx64.efi'
+4:202  0:000        Menu entry added at index 1
+4:202  0:000        AddLoaderEntry for Volume Name=꾯꾯꾯꾯꾯꾯꾯꾯꾯꾯꾯꾯꾯꾯꾯꾯꾯꾯꾯꾯꾯꾯꾯꾯꾯꾯꾯꾯꾯꾯꾯꾯꾯꾯桰つ, idx=2
+4:202  0:000        OSVersion= 
+4:202  0:000        IconName=unknown comma=-1 size=7
+4:202  0:000        Full=unknown
+4:203  0:000        Loader entry created for 'PcieRoot(0x0)\Pci(0x2,0x0)\Pci(0x0,0x0)\NVMe(0x1,48-A7-1A-4E-8B-44-1B-00)\HD(2,GPT,81BCBE1A-2940-4756-AA4C-5CDDDEB2ACB0,0x800,0x200000)\EFI\BOOT\BOOTX64.efi'
+4:203  0:000        Menu entry added at index 2
+4:203  0:000       hiding entry because DiskKind is DISK_KIND_INTERNAL: \EFI\BOOT\BOOTX64.efi
+4:203  0:000  Entries list before ordering
+4:203  0:000      Entry 0 : Boot UEFI external from 2023_08_08 (hidden)
+4:203  0:000      Entry 1 : Boot Proxmox Linux from 꾯꾯꾯꾯꾯꾯꾯꾯꾯꾯꾯꾯꾯꾯꾯꾯꾯꾯꾯꾯꾯꾯꾯꾯꾯꾯꾯꾯꾯꾯꾯꾯꾯꾯桰つ
+4:203  0:000      Entry 2 : Boot UEFI internal from 꾯꾯꾯꾯꾯꾯꾯꾯꾯꾯꾯꾯꾯꾯꾯꾯꾯꾯꾯꾯꾯꾯꾯꾯꾯꾯꾯꾯꾯꾯꾯꾯꾯꾯桰つ (hidden)
+4:203  0:000  Entries list after ordering
+4:203  0:000    Entry 0 : Boot UEFI external from 2023_08_08 (hidden)
+4:203  0:000    Entry 1 : Boot Proxmox Linux from 꾯꾯꾯꾯꾯꾯꾯꾯꾯꾯꾯꾯꾯꾯꾯꾯꾯꾯꾯꾯꾯꾯꾯꾯꾯꾯꾯꾯꾯꾯꾯꾯꾯꾯桰つ
+4:203  0:000    Entry 2 : Boot UEFI internal from 꾯꾯꾯꾯꾯꾯꾯꾯꾯꾯꾯꾯꾯꾯꾯꾯꾯꾯꾯꾯꾯꾯꾯꾯꾯꾯꾯꾯꾯꾯꾯꾯꾯꾯桰つ (hidden)
+4:203  0:000  Scanning legacy ...
+4:203  0:000   hidden
+4:203  0:000  === [ AddCustomTool ] ===========================
+4:208  0:004  found tool \EFI\CLOVER\tools\Shell64U.efi
+4:208  0:000  Checking EFI partition Volume 5 for Clover
+4:208  0:000   Found Clover
+4:209  0:000  === [ GetEfiBootDeviceFromNvram ] ===============
+4:209  0:000   - [!] efi-boot-device-data not found
+4:209  0:000  Default boot entry not found
+4:209  0:000  BannerPlace at Clear Screen [896,224]
+4:363  0:154  GUI ready

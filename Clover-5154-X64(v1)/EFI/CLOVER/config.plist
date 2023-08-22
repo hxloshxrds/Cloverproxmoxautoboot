@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd"> ;
+
+<plist version="1.0">
+
+<dict>
+
+  <key>Boot</key>
+
+  <dict>
+
+    <key>Timeout</key>
+
+    <integer>0</integer>
+
+    <key>DefaultVolume</key>
+
+    <string>81BCBE1A-2940-4756-AA4C-5CDDDEB2ACB0</string>
+
+  </dict>
+
+  <key>GUI</key>
+
+  <dict>
+
+    <key>TextOnly</key>
+
+    <true/>
+
+    <key>Custom</key>
+
+    <dict>
+
+      <key>Entries</key>
+
+      <array>
+
+        <dict>
+
+          <key>Hidden</key>
+
+          <false/>
+
+          <key>Volume</key>
+
+          <string>81BCBE1A-2940-4756-AA4C-5CDDDEB2ACB0</string>
+
+          <key>Disabled</key>
+
+          <false/>
+
+          <key>Type</key>
+
+          <string>Linux</string>
+
+          <key>Title</key>
+
+          <string>FIREBRANDproxmox</string>
+
+        </dict>
+
+      </array>
+
+    </dict>
+
+  </dict>
+
+</dict>
+
+</plist>
